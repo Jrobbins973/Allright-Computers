@@ -9,7 +9,7 @@ import Home from './components/Home';
 
 function App() {
   return (
-    <div className="container flex flex-col md:flex-col items-center">
+    <div className="container mx-auto p-0 flex flex-col md:flex-col items-center">
        
 
 
