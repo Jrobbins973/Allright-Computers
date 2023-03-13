@@ -28,7 +28,7 @@ function App() {
       </Link>
 
       <Link exact path="/services">
-        <div  className="bg-gray-300 ">
+        <div  className="home-image">
 
         <Services />
         </div>

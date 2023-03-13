@@ -6,17 +6,18 @@ import { useHistory } from "react-router-dom";
 function Services() {
     const history = useHistory()
 
-
+    const [toggleSpyware, setToggleSpyware] = useState(false)
 
 
     return (
-        <div className="container mx-auto p-0 flex flex-col md:flex-col">
+        <div className="container mx-auto p-0 flex flex-col md:flex-col cursor-default">
 
-        <a className=" flex justify-center" onClick={() => history.push("/")}>Home</a>
+    <a className=" flex justify-center cursor-pointer" onClick={() => history.push("/")}>Home</a>
 
+       
     <div class=" grid xl:grid-cols-3 md:grid-cols-2 gap-12 mt-20 justify-center">
 
-        <div class=" p-4 w-96 h-96 sm:h-auto text-xl border-4 border-cyan-800 rounded-xl">  
+        <div class="bg-white p-4 w-96 h-96 sm:h-auto text-xl border-4 border-cyan-800 rounded-xl">  
 
             <p className='font-bold mb-8 font-mono'>Spyware / Virus Removal</p>
             
@@ -25,7 +26,11 @@ function Services() {
             </div>
         </div>
         
-        <div class=" p-4 w-96 h-96 sm:h-auto text-xl border-4 border-cyan-800 rounded-xl">  
+
+
+
+
+        <div class="bg-white p-4 w-96 h-96 sm:h-auto text-xl border-4 border-cyan-800 rounded-xl">  
 
             <p className='font-bold mb-8 font-mono'>Desktop / Laptop Repair</p>
             
@@ -34,7 +39,7 @@ function Services() {
             </div>
         </div>
 
-        <div class=" p-4 w-96 h-96 sm:h-auto text-xl border-4 border-cyan-800 rounded-xl">  
+        <div class="bg-white p-4 w-96 h-96 sm:h-auto text-xl border-4 border-cyan-800 rounded-xl">  
 
             <p className='font-bold mb-8 font-mono'>Data Recovery</p>
             
@@ -43,7 +48,7 @@ function Services() {
             </div>
         </div>
 
-        <div class=" p-4 w-96 h-96 sm:h-auto text-xl border-4 border-cyan-800 rounded-xl">  
+        <div class="bg-white p-4 w-96 h-96 sm:h-auto text-xl border-4 border-cyan-800 rounded-xl">  
 
             <p className='font-bold mb-8 font-mono'>Hard Drive Replacement</p>
             
@@ -52,7 +57,7 @@ function Services() {
             </div>
         </div>
 
-        <div class=" p-4 w-96 h-96 sm:h-auto text-xl border-4 border-cyan-800 rounded-xl">  
+        <div class="bg-white p-4 w-96 h-96 sm:h-auto text-xl border-4 border-cyan-800 rounded-xl">  
 
             <p className='font-bold mb-8 font-mono'>Windows Installation</p>
             
@@ -61,7 +66,7 @@ function Services() {
             </div>
         </div>
 
-        <div class=" p-4 w-96 h-96 sm:h-auto text-xl border-4 border-cyan-800 rounded-xl">  
+        <div class="bg-white p-4 w-96 h-96 sm:h-auto text-xl border-4 border-cyan-800 rounded-xl">  
 
             <p className='font-bold mb-8 font-mono'>Performance Upgrades</p>
             
