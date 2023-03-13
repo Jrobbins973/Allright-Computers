@@ -1,12 +1,18 @@
 import { useState } from "react"
 import React from 'react'
+import { useHistory } from "react-router-dom";
+
 
 function Services() {
+    const history = useHistory()
+
+
+
 
     return (
-        <div>
+        <div className="container mx-auto p-0 flex flex-col md:flex-col">
 
-
+        <a className=" flex justify-center" onClick={() => history.push("/")}>Home</a>
 
     <div class=" grid xl:grid-cols-3 md:grid-cols-2 gap-12 mt-20 justify-center">
 

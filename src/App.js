@@ -3,13 +3,13 @@ import './App.css';
 import About from './components/About';
 import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 import Home from './components/Home';
-
+import Services from './components/Services';
 
 
 
 function App() {
   return (
-    <div className="container mx-auto p-0 flex flex-col md:flex-col items-center">
+    <div>
        
 
 
@@ -17,7 +17,9 @@ function App() {
       <Switch>
 
       <Link exact path="/">
+        <div>
         <Home />
+        </div>
       </Link>
 
 
@@ -25,6 +27,12 @@ function App() {
         <About/>
       </Link>
 
+      <Link exact path="/services">
+        <div  className="bg-gray-300 ">
+
+        <Services />
+        </div>
+      </Link>
         </Switch>
 
     </div>
