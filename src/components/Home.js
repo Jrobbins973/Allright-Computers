@@ -8,6 +8,10 @@ import Footer from './Footer';
 function Home() {
     const history = useHistory()
 
+    const openInNewTab = (url) => {
+        window.open(url, '_blank', 'noreferrer');
+    };
+
 
 
 
@@ -36,7 +40,7 @@ function Home() {
             onClick={() => history.push('/services')}
             >Services</a>
 
-            <a className=' hover:text-blue-500 underline underline-offset-4 transition duration-200 cursor-pointer'>Contact</a>
+            <p onClick={() => openInNewTab("https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=drobbins56@gmail.com")} className=' hover:text-blue-500 underline underline-offset-4 transition duration-200 cursor-pointer'>Contact</p>
         </div>
 
     
