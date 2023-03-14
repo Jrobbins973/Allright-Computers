@@ -14,8 +14,8 @@ function Services() {
 
     <a className=" flex justify-center cursor-pointer" onClick={() => history.push("/")}>Home</a>
 
-       
-    <div class=" grid xl:grid-cols-3 md:grid-cols-2 gap-12 mt-20 justify-center">
+    
+    <div class=" grid xl:grid-cols-3 xl:mx-auto md:grid-cols-2 gap-12 mt-20 justify-center">
 
         <div class="bg-white p-4 w-96 h-96 sm:h-auto text-xl border-4 border-cyan-800 rounded-xl">  
 

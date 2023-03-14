@@ -12,7 +12,7 @@ function Home() {
 
 
     return (
-    <div className="bg-gray-600 h-screen"> 
+    <div className="about-me-background h-screen cursor-default"> 
 
     <div  className='flex items-center justify-center' >
         <img className='rounded-full w-96 shadow-lg shadow-black' src='https://i.imgur.com/SxCU1MY.png' />
@@ -30,16 +30,16 @@ function Home() {
         <div className=' flex flex-row justify-center font-bold text-white text-xl font-mono mt-8 '>
 
 
-            <a className=' hover:text-blue-500 underline underline-offset-4 transition duration-200 ' onClick={() => history.push('/about')}>About</a>
+            <a className=' hover:text-blue-500 underline underline-offset-4 transition duration-200 cursor-pointer ' onClick={() => history.push('/about')}>About</a>
 
-            <a className=' mx-5 hover:text-blue-500 underline underline-offset-4 transition duration-200'
+            <a className=' mx-5 hover:text-blue-500 underline underline-offset-4 transition duration-200 cursor-pointer'
             onClick={() => history.push('/services')}
             >Services</a>
 
-            <a className=' hover:text-blue-500 underline underline-offset-4 transition duration-200'>Contact</a>
+            <a className=' hover:text-blue-500 underline underline-offset-4 transition duration-200 cursor-pointer'>Contact</a>
         </div>
 
-      
+    
 
         <Footer />
 

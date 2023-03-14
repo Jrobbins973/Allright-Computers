@@ -42,3 +42,9 @@
     transform: rotate(360deg);
   }
 } */
+
+
+.about-me-background {
+  background-image: url("https://cdn.staticcrate.com/stock-hd/effects/footagecrate-4k-looping-network-tech-background-blue-1-prev-full.png");
+  background-size:cover;
+}
